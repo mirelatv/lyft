@@ -59,6 +59,7 @@ ul{
 
   text-decoration: none;
 }
+
  li{
   display:inline block;
  list-style: none;
@@ -78,6 +79,25 @@ ul{
   .block4{
     float: left;
   }
+=======
+  .a1{
+    color:#728099 ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-decoration: none;
+
+}
+/*cuadro morado*/
+.box_grape{
+  background-color: #76278F;
+  position:absolute;
+  width: 100%;
+  height: 90%;
+  margin-top: 610px;
+  left: 0;
 
 .autor {
   display: inline-block;
@@ -85,3 +105,42 @@ ul{
   font-size: 15px;
   text-align: center;
 }
+
+/*imagen del celular*/
+.phone{
+  position: relative;
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-right: 180px;
+  margin-top: 80px;
+}
+/*titulos*/
+.text{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  margin-top: 100px;
+  margin-left: 140px;
+  line-height: 25px;
+}
+/* ultimo cuadro con imagen*/
+.box_blanco{
+  background-color: white;
+  position:absolute;
+  width: 100%;
+  height: 90%;
+  margin-top: 1198px;
+  left: 0;
+}
+/*videos*/
+.text_video{
+font-family: 'Montserrat', sans-serif;
+margin-left: 140px;
+
+}
+iframe{
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+/*salida*/
