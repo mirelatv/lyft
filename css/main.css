@@ -1,3 +1,152 @@
-/*
- * Estilos de tu proyecto
- */
+/* Estilos de tu proyecto*/
+/*encabezado*/
+header{
+  background-color:#2B1E66;
+  height: 113px;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top:0;
+  position: fixed;
+  z-index: 1000;
+  /*display: none;*/
+}
+
+.logo_white{
+  width: 64px;
+  height: 41px;
+  margin-left: 80px;
+  margin-top: 34px;
+}
+
+/*lista del header*/
+.list_1{
+  display: inline-block;
+  float: right;
+  margin-right: 130px;
+  margin-top: 40px;
+}
+.list_1 li:hover{
+  color: #FF00BF;
+}
+.list_1 li{
+  display: inline-block;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 50px;
+  font-size: 19px;
+}
+.icon{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.list_1 li.cuadro{
+  border: 0.1vh solid white;
+  border-radius: 1.5vh;
+  width: 80px;
+  height: 40px;
+  padding-top:  10px;
+  padding-left: 20px;
+}
+/*pagina principal*/
+.hero_gif{
+  position: absolute;
+  height: 655px;
+  width: 100%;
+  left: 0;
+  top: 0;
+z-index: 100;
+}
+/*cuadro bllanco*/
+.box_white{
+  background-color: white;
+  width:590px;
+  height:410px;
+  position:absolute;
+  right: 0;
+  margin-top: 100px;
+  z-index: 102;
+}
+/*letters*/
+.title_m{
+font-size: 40px;
+color: #352384;
+font-family: 'Montserrat', sans-serif;
+padding-left: 70px;
+padding-top: 35px;
+margin-bottom: 0;
+}
+.pagra{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 70px;
+  color: #352384;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+/*dando estilo l imput*/
+input {
+   font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  font-size: 18px;
+  border:none;
+  padding-left: 68px;
+}
+input:focus{
+ outline: none;
+}
+/*boton rosado*/
+.boton_pink{
+  background-color:#FF00BF;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  width: 190px;
+  height: 50px;
+  margin-left: 65px;
+  border-radius: 1.5vh;
+  border: none;
+  letter-spacing: 1px;
+}
+/*etiqueta ancor*/
+a{
+  color: #728099;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-left: 20px;
+}
+/*letras de abajo*/
+ h6{
+  color: #728099;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  display:inline-block;
+  float: left;
+}
+  .a1{
+    color:#FF00BF ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    display:block;
+    float: left;
+}
+/*cuadro morado*/
+.box_grape{
+  background-color: #76278F;
+  position:absolute;
+  width: 100%;
+  height: 90%;
+  margin-top: 610px;
+  left: 0;
+
+}
+/*imagen del celular*/
+.phone{
+  position: relative;
+  width: 400px;
+  height: 500px;
+  float: right;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+/*titulos*/
