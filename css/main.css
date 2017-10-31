@@ -1,3 +1,57 @@
-/*
- * Estilos de tu proyecto
- */
+body{
+box-sizing: border-box;
+font-family: "monserrat",sans-serif;
+}
+
+.contaner3{
+  overflow: auto;
+}
+
+.information {
+ float:right;
+ padding-right: 180px;
+ padding-top: 0PX;
+ height: 100px;
+ width:300px;
+ text-align: justify;
+ line-height: 1.9;
+ font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+
+ }
+
+.titulo2{
+  margin-bottom: 0;
+}
+ .titulo3{
+font-size: 40px;
+margin-top: 0px;
+
+ }
+
+ .contaner4{
+   overflow: auto;
+ }
+.info {
+  float:left;
+  padding-left: 120px;
+  padding-top: 0PX;
+  height: 100px;
+  width:300px;
+  text-align: justify;
+  line-height: 1.9;
+  font-family: Gotham SSm A,Gotham SSm B,HelveticaNeue,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+  }
+ .video2{
+   float: right;
+ }
+ .titulo4{
+   margin-bottom: 0;
+ }
+  .titulo5{
+ font-size: 40px;
+ margin-top: 0px;
+}
+
+footer{
+background: #333447;
+}
