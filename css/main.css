@@ -1,10 +1,7 @@
-body{
-box-sizing: border-box;
-font-family: "monserrat",sans-serif;
-}
 
 .contaner3{
   overflow: auto;
+
 }
 
 .information {
@@ -54,4 +51,37 @@ margin-top: 0px;
 
 footer{
 background: #333447;
+margin-top: 40px;
+overflow: hidden;
+}
+
+ul{
+
+  text-decoration: none;
+}
+ li{
+  display:inline block;
+ list-style: none;
+    }
+.title1{
+  text-align: center;
+}
+  .block1{
+    float: left;
+  }
+  .block2{
+    float: left;
+  }
+  .block3{
+    float: left;
+  }
+  .block4{
+    float: left;
+  }
+
+.autor {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
 }
