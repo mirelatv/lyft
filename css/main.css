@@ -115,20 +115,15 @@ a{
   font-size: 16px;
   margin-left: 20px;
 }
-/*letras de abajo*/
- h6{
-  color: #728099;
-  font-family: 'Montserrat', sans-serif;
-  margin-left: 20px;
-  display:inline-block;
-  float: left;
-}
   .a1{
-    color:#FF00BF ;
+    color:#728099 ;
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
-    display:block;
-    float: left;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-decoration: none;
+
 }
 /*cuadro morado*/
 .box_grape{
@@ -146,7 +141,35 @@ a{
   width: 400px;
   height: 500px;
   float: right;
-  margin-right: 120px;
-  margin-top: 50px;
+  margin-right: 180px;
+  margin-top: 80px;
 }
 /*titulos*/
+.text{
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+  margin-top: 100px;
+  margin-left: 140px;
+  line-height: 25px;
+}
+/* ultimo cuadro con imagen*/
+.box_blanco{
+  background-color: white;
+  position:absolute;
+  width: 100%;
+  height: 90%;
+  margin-top: 1198px;
+  left: 0;
+}
+/*videos*/
+.text_video{
+font-family: 'Montserrat', sans-serif;
+margin-left: 140px;
+
+}
+iframe{
+  position:absolute;
+  right: 0;
+  top: 0;
+}
+/*salida*/
